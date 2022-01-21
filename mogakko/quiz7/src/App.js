@@ -14,8 +14,7 @@ function App() {
   return (
     <div>
       <button onClick={Onclick}>is it true?</button>
-      {check && <div>I'm true!</div>}
-      {!check && <div>I'm not true?</div>}
+      {check ? <div>I'm true!</div> : <div>it's false</div>}
     </div>
   );
 }
