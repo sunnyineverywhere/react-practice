@@ -15,5 +15,6 @@
 }
 
 .contents {
+  margin-left: 240px;
   flex: 1;
 }
