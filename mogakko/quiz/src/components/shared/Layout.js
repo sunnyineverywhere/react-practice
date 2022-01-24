@@ -16,7 +16,7 @@ function Layout({children, activeMenu}) {
             <Header onClickMenu={onClickMenu}/>
             <div className = {styles.layout}>
                 {click ? <Menu activeMenu={activeMenu}/> : <div></div>}
-                <div className={styles.contents}>{children}</div>
+                <div className={click ? styles.contents : styles.clickedContents}>{children}</div>
             </div>
         </div>
     );

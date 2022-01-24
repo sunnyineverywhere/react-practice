@@ -18,3 +18,8 @@
   margin-left: 240px;
   flex: 1;
 }
+
+.clickedContents {
+  flex: 1;
+  margin-left: 70px;
+}
