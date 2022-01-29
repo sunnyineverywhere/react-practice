@@ -19,7 +19,9 @@ function Layout({children, activeMenu}) {
                 <div className={click ? styles.contents : styles.clickedContents}>{children}</div>
             </div>
         </div>
-    );
+    )
+    
+    ;
 }
 
 export default Layout;
